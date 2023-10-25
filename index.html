@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>J's Airbuddies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <model-viewer id="model" src="model/earbuds.gltf" ar ar-modes="webxr scene-viewer quick-look"  camera-controls poster="images/poster.webp" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
+
+
+      <button class="Hotspot" slot="hotspot-1" data-position="-0.19593799880407553m 1.7499369684745423m -0.611495791955759m" data-normal="0.9106296891853457m 0.1088646546204384m -0.39862520761809983m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" id="hotspot-1">
+            <!-- <h2>Noise-cancelling microphones</h2>
+            <p>Noise-cancelling microphones and a rear copper shield are optimally placed to quickly detect outside noises, working together to counter noise before it disturbs your experience.</p> -->
+          </div>
+      </button>
+
+      <button class="Hotspot" slot="hotspot-2" data-position="-0.3889261629756409m 0.08149241458786494m -0.9274315778911904m" data-normal="0.21977563323706062m 0.9738896379677767m -0.05690029959712175m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" id="hotspot-2">
+            <h2>MIC</h2>
+            <p>Airbuddies use inbuilt microphone for voice calls, voice assistant, active noise cancellation, transparency mode and best audio quality </p>
+          </div>
+      </button>
+
+      <button class="Hotspot" slot="hotspot-3" data-position="-0.14012352601202543m 0.8506638119129546m -1.0565827368549046m" data-normal="0.9943534375587344m -0.01793465971192986m 0.10459249110784863m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" id="hotspot-3">
+            <h2>Battery</h2>
+            <p>With only in 15 min of charging you can gain significant battery life, which allows for a quick top up when in hurry</p>
+          </div>
+      </button>
+
+
+
+    <button class="Hotspot" slot="hotspot-5" data-position="0.2481097241658136m 1.7475618860575661m 0.808001749689419m" data-normal="0.756248982595579m 0.5393650399663665m -0.37036850566055357m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation" id="hotspot-5">
+        <h2>Sensor adaptation</h2>
+        <p>J's Airbuddies provide you sensor adaptation i.e. sensor control how hard or soft you need to tap to prevent accidental touch</p>
+      </div>
+  </button>
+
+
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="images/ar_hand_prompt.png">
+      </div>
+    </model-viewer>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
